@@ -11,7 +11,9 @@ import SwiftUI
 struct PureSipApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WaterDropView(vm: WaterProgressViewModel(objetive: 2),
+                          backgroundColor: .white,
+                          waterColor: .blue)
         }
     }
 }

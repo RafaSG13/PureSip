@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		AA4BF1E42C6B95150088D3F2 /* PureSipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */; };
-		AA4BF1E62C6B95150088D3F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1E52C6B95150088D3F2 /* ContentView.swift */; };
 		AA4BF1E82C6B95160088D3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */; };
 		AA4BF1EC2C6B95160088D3F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */; };
+		AA4BF1FE2C6CA0930088D3F2 /* WaterProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */; };
+		AA4BF2042C6CA4490088D3F2 /* GlassSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */; };
+		AABD042D2C6F4007001EC15E /* Gooey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD042C2C6F4007001EC15E /* Gooey.swift */; };
+		AABD042F2C6F4B09001EC15E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD042E2C6F4B08001EC15E /* ActionButton.swift */; };
+		AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */; };
+		AABD043C2C6FAD75001EC15E /* WaterDropComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD043B2C6FAD75001EC15E /* WaterDropComponent.swift */; };
+		AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */; };
+		AAC82A0B2C6D1BDE00F5C84E /* ParticlesComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A0A2C6D1BDE00F5C84E /* ParticlesComponent.swift */; };
+		AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA4BF1E02C6B95150088D3F2 /* PureSip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureSip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSipApp.swift; sourceTree = "<group>"; };
-		AA4BF1E52C6B95150088D3F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4BF1E92C6B95160088D3F2 /* PureSip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PureSip.entitlements; sourceTree = "<group>"; };
 		AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterProgressViewModel.swift; sourceTree = "<group>"; };
+		AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSize.swift; sourceTree = "<group>"; };
+		AABD042C2C6F4007001EC15E /* Gooey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gooey.swift; sourceTree = "<group>"; };
+		AABD042E2C6F4B08001EC15E /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Formatter.swift"; sourceTree = "<group>"; };
+		AABD043B2C6FAD75001EC15E /* WaterDropComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropComponent.swift; sourceTree = "<group>"; };
+		AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropView.swift; sourceTree = "<group>"; };
+		AAC82A0A2C6D1BDE00F5C84E /* ParticlesComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesComponent.swift; sourceTree = "<group>"; };
+		AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +68,16 @@
 		AA4BF1E22C6B95150088D3F2 /* PureSip */ = {
 			isa = PBXGroup;
 			children = (
-				AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */,
-				AA4BF1E52C6B95150088D3F2 /* ContentView.swift */,
-				AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */,
 				AA4BF1E92C6B95160088D3F2 /* PureSip.entitlements */,
+				AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */,
+				AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */,
+				AABD04312C6F65AB001EC15E /* Components */,
+				AABD04302C6F5DC3001EC15E /* Effect */,
+				AABD04382C6F76DC001EC15E /* Extensions */,
+				AA4BF2052C6CA47D0088D3F2 /* Models */,
 				AA4BF1EA2C6B95160088D3F2 /* Preview Content */,
+				AA4BF2002C6CA3840088D3F2 /* ViewModels */,
+				AA4BF1FF2C6CA37C0088D3F2 /* Views */,
 			);
 			path = PureSip;
 			sourceTree = "<group>";
@@ -67,6 +88,58 @@
 				AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA4BF1FF2C6CA37C0088D3F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA4BF2002C6CA3840088D3F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA4BF2052C6CA47D0088D3F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AABD04302C6F5DC3001EC15E /* Effect */ = {
+			isa = PBXGroup;
+			children = (
+				AABD042C2C6F4007001EC15E /* Gooey.swift */,
+			);
+			name = Effect;
+			sourceTree = "<group>";
+		};
+		AABD04312C6F65AB001EC15E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AAC82A0A2C6D1BDE00F5C84E /* ParticlesComponent.swift */,
+				AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */,
+				AABD042E2C6F4B08001EC15E /* ActionButton.swift */,
+				AABD043B2C6FAD75001EC15E /* WaterDropComponent.swift */,
+			);
+			name = Components;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AABD04382C6F76DC001EC15E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +186,8 @@
 				Base,
 			);
 			mainGroup = AA4BF1D72C6B95150088D3F2;
+			packageReferences = (
+			);
 			productRefGroup = AA4BF1E12C6B95150088D3F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4BF1E62C6B95150088D3F2 /* ContentView.swift in Sources */,
+				AA4BF2042C6CA4490088D3F2 /* GlassSize.swift in Sources */,
+				AABD042D2C6F4007001EC15E /* Gooey.swift in Sources */,
+				AABD043C2C6FAD75001EC15E /* WaterDropComponent.swift in Sources */,
+				AAC82A0B2C6D1BDE00F5C84E /* ParticlesComponent.swift in Sources */,
+				AA4BF1FE2C6CA0930088D3F2 /* WaterProgressViewModel.swift in Sources */,
+				AABD042F2C6F4B09001EC15E /* ActionButton.swift in Sources */,
+				AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */,
+				AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */,
+				AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */,
 				AA4BF1E42C6B95150088D3F2 /* PureSipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
