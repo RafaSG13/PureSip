@@ -14,7 +14,6 @@
 		AA4BF2042C6CA4490088D3F2 /* GlassSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */; };
 		AABD042D2C6F4007001EC15E /* Gooey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD042C2C6F4007001EC15E /* Gooey.swift */; };
 		AABD042F2C6F4B09001EC15E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD042E2C6F4B08001EC15E /* ActionButton.swift */; };
-		AABD04332C6F65BE001EC15E /* AddGlassButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD04322C6F65BE001EC15E /* AddGlassButton.swift */; };
 		AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */; };
 		AABD043C2C6FAD75001EC15E /* WaterDropComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD043B2C6FAD75001EC15E /* WaterDropComponent.swift */; };
 		AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */; };
@@ -32,7 +31,6 @@
 		AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSize.swift; sourceTree = "<group>"; };
 		AABD042C2C6F4007001EC15E /* Gooey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gooey.swift; sourceTree = "<group>"; };
 		AABD042E2C6F4B08001EC15E /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
-		AABD04322C6F65BE001EC15E /* AddGlassButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGlassButton.swift; sourceTree = "<group>"; };
 		AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Formatter.swift"; sourceTree = "<group>"; };
 		AABD043B2C6FAD75001EC15E /* WaterDropComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropComponent.swift; sourceTree = "<group>"; };
 		AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropView.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				AA4BF1E92C6B95160088D3F2 /* PureSip.entitlements */,
-				AABD04322C6F65BE001EC15E /* AddGlassButton.swift */,
 				AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */,
 				AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */,
 				AABD04312C6F65AB001EC15E /* Components */,
@@ -223,7 +220,6 @@
 				AAC82A0B2C6D1BDE00F5C84E /* ParticlesComponent.swift in Sources */,
 				AA4BF1FE2C6CA0930088D3F2 /* WaterProgressViewModel.swift in Sources */,
 				AABD042F2C6F4B09001EC15E /* ActionButton.swift in Sources */,
-				AABD04332C6F65BE001EC15E /* AddGlassButton.swift in Sources */,
 				AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */,
 				AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */,
 				AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */,
