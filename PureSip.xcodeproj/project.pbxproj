@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0817A72CDBC18F00C6D99F /* SharedModels.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0817A62CDBC18F00C6D99F /* SharedModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0817AA2CDBC18F00C6D99F /* SharedModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0817A42CDBC18F00C6D99F /* SharedModels.framework */; };
+		AA0817AB2CDBC18F00C6D99F /* SharedModels.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA0817A42CDBC18F00C6D99F /* SharedModels.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA0817B02CDBC19F00C6D99F /* SharedModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0817A42CDBC18F00C6D99F /* SharedModels.framework */; };
+		AA0817B12CDBC19F00C6D99F /* SharedModels.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA0817A42CDBC18F00C6D99F /* SharedModels.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA0817B72CDBC1CD00C6D99F /* GlassSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0817B62CDBC1CD00C6D99F /* GlassSize.swift */; };
+		AA0817BB2CDCE27600C6D99F /* UpdateProgressIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0817B92CDCE16700C6D99F /* UpdateProgressIntent.swift */; };
+		AA1F94212CDB85BB003D3C74 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1F94202CDB85BB003D3C74 /* WidgetKit.framework */; };
+		AA1F94232CDB85BB003D3C74 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1F94222CDB85BB003D3C74 /* SwiftUI.framework */; };
+		AA1F94262CDB85BB003D3C74 /* PureSipWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F94252CDB85BB003D3C74 /* PureSipWidgetBundle.swift */; };
+		AA1F94282CDB85BB003D3C74 /* PureSipWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F94272CDB85BB003D3C74 /* PureSipWidgetLiveActivity.swift */; };
+		AA1F942A2CDB85BB003D3C74 /* PureSipWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F94292CDB85BB003D3C74 /* PureSipWidget.swift */; };
+		AA1F942E2CDB85C7003D3C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1F942D2CDB85C7003D3C74 /* Assets.xcassets */; };
+		AA1F94322CDB85C7003D3C74 /* PureSipWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA1F941E2CDB85BB003D3C74 /* PureSipWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA1F94392CDB8698003D3C74 /* PSLiveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F94382CDB8698003D3C74 /* PSLiveActivityAttributes.swift */; };
 		AA4BF1E42C6B95150088D3F2 /* PureSipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */; };
 		AA4BF1E82C6B95160088D3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */; };
 		AA4BF1EC2C6B95160088D3F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */; };
 		AA4BF1FE2C6CA0930088D3F2 /* WaterProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */; };
-		AA4BF2042C6CA4490088D3F2 /* GlassSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */; };
-		AABD042D2C6F4007001EC15E /* Gooey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD042C2C6F4007001EC15E /* Gooey.swift */; };
+		AA86B8132C7DE8BE0009EA11 /* WaterDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */; };
+		AA86B8152C7DEB380009EA11 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86B8142C7DEB380009EA11 /* User.swift */; };
+		AAA73ADA2CDB95F500622E5D /* HorizontalWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA73AD82CDB95E200622E5D /* HorizontalWaveShape.swift */; };
+		AAA73ADF2CDBBC5700622E5D /* PSSmallWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA73ADD2CDBBC4600622E5D /* PSSmallWidgetView.swift */; };
+		AAA73AE22CDBBC8400622E5D /* PSMediumWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA73AE02CDBBC7800622E5D /* PSMediumWidgetView.swift */; };
 		AABD042F2C6F4B09001EC15E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD042E2C6F4B08001EC15E /* ActionButton.swift */; };
 		AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */; };
 		AABD043C2C6FAD75001EC15E /* WaterDropComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD043B2C6FAD75001EC15E /* WaterDropComponent.swift */; };
@@ -21,15 +39,91 @@
 		AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AA0817A82CDBC18F00C6D99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4BF1D82C6B95150088D3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0817A32CDBC18F00C6D99F;
+			remoteInfo = SharedModels;
+		};
+		AA0817B22CDBC19F00C6D99F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4BF1D82C6B95150088D3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0817A32CDBC18F00C6D99F;
+			remoteInfo = SharedModels;
+		};
+		AA1F94302CDB85C7003D3C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4BF1D82C6B95150088D3F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1F941D2CDB85BB003D3C74;
+			remoteInfo = PureSipWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA0817AF2CDBC18F00C6D99F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA0817AB2CDBC18F00C6D99F /* SharedModels.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0817B42CDBC19F00C6D99F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA0817B12CDBC19F00C6D99F /* SharedModels.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1F94362CDB85C7003D3C74 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA1F94322CDB85C7003D3C74 /* PureSipWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AA0817A42CDBC18F00C6D99F /* SharedModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0817A62CDBC18F00C6D99F /* SharedModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedModels.h; sourceTree = "<group>"; };
+		AA0817B62CDBC1CD00C6D99F /* GlassSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSize.swift; sourceTree = "<group>"; };
+		AA0817B92CDCE16700C6D99F /* UpdateProgressIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProgressIntent.swift; sourceTree = "<group>"; };
+		AA1F941E2CDB85BB003D3C74 /* PureSipWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PureSipWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1F94202CDB85BB003D3C74 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AA1F94222CDB85BB003D3C74 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AA1F94252CDB85BB003D3C74 /* PureSipWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSipWidgetBundle.swift; sourceTree = "<group>"; };
+		AA1F94272CDB85BB003D3C74 /* PureSipWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSipWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		AA1F94292CDB85BB003D3C74 /* PureSipWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSipWidget.swift; sourceTree = "<group>"; };
+		AA1F942D2CDB85C7003D3C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1F942F2CDB85C7003D3C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1F94382CDB8698003D3C74 /* PSLiveActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSLiveActivityAttributes.swift; sourceTree = "<group>"; };
 		AA4BF1E02C6B95150088D3F2 /* PureSip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureSip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureSipApp.swift; sourceTree = "<group>"; };
 		AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4BF1E92C6B95160088D3F2 /* PureSip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PureSip.entitlements; sourceTree = "<group>"; };
 		AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterProgressViewModel.swift; sourceTree = "<group>"; };
-		AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSize.swift; sourceTree = "<group>"; };
-		AABD042C2C6F4007001EC15E /* Gooey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gooey.swift; sourceTree = "<group>"; };
+		AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiary.swift; sourceTree = "<group>"; };
+		AA86B8142C7DEB380009EA11 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AAA73AD82CDB95E200622E5D /* HorizontalWaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWaveShape.swift; sourceTree = "<group>"; };
+		AAA73ADD2CDBBC4600622E5D /* PSSmallWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSSmallWidgetView.swift; sourceTree = "<group>"; };
+		AAA73AE02CDBBC7800622E5D /* PSMediumWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSMediumWidgetView.swift; sourceTree = "<group>"; };
 		AABD042E2C6F4B08001EC15E /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Formatter.swift"; sourceTree = "<group>"; };
 		AABD043B2C6FAD75001EC15E /* WaterDropComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropComponent.swift; sourceTree = "<group>"; };
@@ -39,20 +133,97 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA4BF1DD2C6B95150088D3F2 /* Frameworks */ = {
+		AA0817A12CDBC18F00C6D99F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA1F941B2CDB85BB003D3C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1F94232CDB85BB003D3C74 /* SwiftUI.framework in Frameworks */,
+				AA1F94212CDB85BB003D3C74 /* WidgetKit.framework in Frameworks */,
+				AA0817B02CDBC19F00C6D99F /* SharedModels.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4BF1DD2C6B95150088D3F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0817AA2CDBC18F00C6D99F /* SharedModels.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA0817A52CDBC18F00C6D99F /* SharedModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA0817B52CDBC1BC00C6D99F /* Models */,
+				AA0817A62CDBC18F00C6D99F /* SharedModels.h */,
+			);
+			path = SharedModels;
+			sourceTree = "<group>";
+		};
+		AA0817B52CDBC1BC00C6D99F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA0817B62CDBC1CD00C6D99F /* GlassSize.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA0817B82CDCE15900C6D99F /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				AA0817B92CDCE16700C6D99F /* UpdateProgressIntent.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		AA1F941F2CDB85BB003D3C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F94202CDB85BB003D3C74 /* WidgetKit.framework */,
+				AA1F94222CDB85BB003D3C74 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1F94242CDB85BB003D3C74 /* PureSipWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AAA73ADB2CDBBC2A00622E5D /* Widget */,
+				AAA73AD72CDB95D600622E5D /* Components */,
+				AA1F94372CDB866F003D3C74 /* LiveActivity */,
+				AA1F94252CDB85BB003D3C74 /* PureSipWidgetBundle.swift */,
+				AA1F942D2CDB85C7003D3C74 /* Assets.xcassets */,
+				AA1F942F2CDB85C7003D3C74 /* Info.plist */,
+			);
+			path = PureSipWidget;
+			sourceTree = "<group>";
+		};
+		AA1F94372CDB866F003D3C74 /* LiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F94272CDB85BB003D3C74 /* PureSipWidgetLiveActivity.swift */,
+				AA1F94382CDB8698003D3C74 /* PSLiveActivityAttributes.swift */,
+			);
+			path = LiveActivity;
+			sourceTree = "<group>";
+		};
 		AA4BF1D72C6B95150088D3F2 = {
 			isa = PBXGroup;
 			children = (
 				AA4BF1E22C6B95150088D3F2 /* PureSip */,
+				AA1F94242CDB85BB003D3C74 /* PureSipWidget */,
+				AA0817A52CDBC18F00C6D99F /* SharedModels */,
+				AA1F941F2CDB85BB003D3C74 /* Frameworks */,
 				AA4BF1E12C6B95150088D3F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				AA4BF1E02C6B95150088D3F2 /* PureSip.app */,
+				AA1F941E2CDB85BB003D3C74 /* PureSipWidgetExtension.appex */,
+				AA0817A42CDBC18F00C6D99F /* SharedModels.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,7 +245,6 @@
 				AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */,
 				AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */,
 				AABD04312C6F65AB001EC15E /* Components */,
-				AABD04302C6F5DC3001EC15E /* Effect */,
 				AABD04382C6F76DC001EC15E /* Extensions */,
 				AA4BF2052C6CA47D0088D3F2 /* Models */,
 				AA4BF1EA2C6B95160088D3F2 /* Preview Content */,
@@ -109,17 +281,37 @@
 		AA4BF2052C6CA47D0088D3F2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AA4BF2032C6CA4490088D3F2 /* GlassSize.swift */,
+				AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */,
+				AA86B8142C7DEB380009EA11 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		AABD04302C6F5DC3001EC15E /* Effect */ = {
+		AAA73AD72CDB95D600622E5D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				AABD042C2C6F4007001EC15E /* Gooey.swift */,
+				AAA73AD82CDB95E200622E5D /* HorizontalWaveShape.swift */,
 			);
-			name = Effect;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AAA73ADB2CDBBC2A00622E5D /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				AA1F94292CDB85BB003D3C74 /* PureSipWidget.swift */,
+				AA0817B82CDCE15900C6D99F /* Intents */,
+				AAA73ADC2CDBBC2F00622E5D /* Views */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		AAA73ADC2CDBBC2F00622E5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAA73ADD2CDBBC4600622E5D /* PSSmallWidgetView.swift */,
+				AAA73AE02CDBBC7800622E5D /* PSMediumWidgetView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		AABD04312C6F65AB001EC15E /* Components */ = {
@@ -144,7 +336,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AA08179F2CDBC18F00C6D99F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0817A72CDBC18F00C6D99F /* SharedModels.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		AA0817A32CDBC18F00C6D99F /* SharedModels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0817AC2CDBC18F00C6D99F /* Build configuration list for PBXNativeTarget "SharedModels" */;
+			buildPhases = (
+				AA08179F2CDBC18F00C6D99F /* Headers */,
+				AA0817A02CDBC18F00C6D99F /* Sources */,
+				AA0817A12CDBC18F00C6D99F /* Frameworks */,
+				AA0817A22CDBC18F00C6D99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedModels;
+			productName = SharedModels;
+			productReference = AA0817A42CDBC18F00C6D99F /* SharedModels.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA1F941D2CDB85BB003D3C74 /* PureSipWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1F94332CDB85C7003D3C74 /* Build configuration list for PBXNativeTarget "PureSipWidgetExtension" */;
+			buildPhases = (
+				AA1F941A2CDB85BB003D3C74 /* Sources */,
+				AA1F941B2CDB85BB003D3C74 /* Frameworks */,
+				AA1F941C2CDB85BB003D3C74 /* Resources */,
+				AA0817B42CDBC19F00C6D99F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0817B32CDBC19F00C6D99F /* PBXTargetDependency */,
+			);
+			name = PureSipWidgetExtension;
+			productName = PureSipWidgetExtension;
+			productReference = AA1F941E2CDB85BB003D3C74 /* PureSipWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		AA4BF1DF2C6B95150088D3F2 /* PureSip */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA4BF1EF2C6B95160088D3F2 /* Build configuration list for PBXNativeTarget "PureSip" */;
@@ -152,10 +392,14 @@
 				AA4BF1DC2C6B95150088D3F2 /* Sources */,
 				AA4BF1DD2C6B95150088D3F2 /* Frameworks */,
 				AA4BF1DE2C6B95150088D3F2 /* Resources */,
+				AA1F94362CDB85C7003D3C74 /* Embed Foundation Extensions */,
+				AA0817AF2CDBC18F00C6D99F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AA1F94312CDB85C7003D3C74 /* PBXTargetDependency */,
+				AA0817A92CDBC18F00C6D99F /* PBXTargetDependency */,
 			);
 			name = PureSip;
 			productName = PureSip;
@@ -172,6 +416,13 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					AA0817A32CDBC18F00C6D99F = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					AA1F941D2CDB85BB003D3C74 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					AA4BF1DF2C6B95150088D3F2 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -193,11 +444,28 @@
 			projectRoot = "";
 			targets = (
 				AA4BF1DF2C6B95150088D3F2 /* PureSip */,
+				AA1F941D2CDB85BB003D3C74 /* PureSipWidgetExtension */,
+				AA0817A32CDBC18F00C6D99F /* SharedModels */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AA0817A22CDBC18F00C6D99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1F941C2CDB85BB003D3C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1F942E2CDB85C7003D3C74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA4BF1DE2C6B95150088D3F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,26 +478,206 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AA0817A02CDBC18F00C6D99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0817B72CDBC1CD00C6D99F /* GlassSize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1F941A2CDB85BB003D3C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1F942A2CDB85BB003D3C74 /* PureSipWidget.swift in Sources */,
+				AAA73ADA2CDB95F500622E5D /* HorizontalWaveShape.swift in Sources */,
+				AA1F94392CDB8698003D3C74 /* PSLiveActivityAttributes.swift in Sources */,
+				AA1F94262CDB85BB003D3C74 /* PureSipWidgetBundle.swift in Sources */,
+				AA1F94282CDB85BB003D3C74 /* PureSipWidgetLiveActivity.swift in Sources */,
+				AA0817BB2CDCE27600C6D99F /* UpdateProgressIntent.swift in Sources */,
+				AAA73AE22CDBBC8400622E5D /* PSMediumWidgetView.swift in Sources */,
+				AAA73ADF2CDBBC5700622E5D /* PSSmallWidgetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA4BF1DC2C6B95150088D3F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4BF2042C6CA4490088D3F2 /* GlassSize.swift in Sources */,
-				AABD042D2C6F4007001EC15E /* Gooey.swift in Sources */,
 				AABD043C2C6FAD75001EC15E /* WaterDropComponent.swift in Sources */,
 				AAC82A0B2C6D1BDE00F5C84E /* ParticlesComponent.swift in Sources */,
 				AA4BF1FE2C6CA0930088D3F2 /* WaterProgressViewModel.swift in Sources */,
 				AABD042F2C6F4B09001EC15E /* ActionButton.swift in Sources */,
 				AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */,
 				AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */,
+				AA86B8152C7DEB380009EA11 /* User.swift in Sources */,
 				AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */,
+				AA86B8132C7DE8BE0009EA11 /* WaterDiary.swift in Sources */,
 				AA4BF1E42C6B95150088D3F2 /* PureSipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AA0817A92CDBC18F00C6D99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0817A32CDBC18F00C6D99F /* SharedModels */;
+			targetProxy = AA0817A82CDBC18F00C6D99F /* PBXContainerItemProxy */;
+		};
+		AA0817B32CDBC19F00C6D99F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0817A32CDBC18F00C6D99F /* SharedModels */;
+			targetProxy = AA0817B22CDBC19F00C6D99F /* PBXContainerItemProxy */;
+		};
+		AA1F94312CDB85C7003D3C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1F941D2CDB85BB003D3C74 /* PureSipWidgetExtension */;
+			targetProxy = AA1F94302CDB85C7003D3C74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		AA0817AD2CDBC18F00C6D99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FMHB2W3446;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.serrano.SharedModels;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0817AE2CDBC18F00C6D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FMHB2W3446;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.serrano.SharedModels;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA1F94342CDB85C7003D3C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PureSipWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMHB2W3446;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PureSipWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PureSipWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.serrano.PureSip.PureSipWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1F94352CDB85C7003D3C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PureSipWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FMHB2W3446;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PureSipWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PureSipWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.serrano.PureSip.PureSipWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		AA4BF1ED2C6B95160088D3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -347,6 +795,7 @@
 		AA4BF1F02C6B95160088D3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PureSip/PureSip.entitlements;
@@ -385,6 +834,7 @@
 		AA4BF1F12C6B95160088D3F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PureSip/PureSip.entitlements;
@@ -423,6 +873,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AA0817AC2CDBC18F00C6D99F /* Build configuration list for PBXNativeTarget "SharedModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0817AD2CDBC18F00C6D99F /* Debug */,
+				AA0817AE2CDBC18F00C6D99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1F94332CDB85C7003D3C74 /* Build configuration list for PBXNativeTarget "PureSipWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1F94342CDB85C7003D3C74 /* Debug */,
+				AA1F94352CDB85C7003D3C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AA4BF1DB2C6B95150088D3F2 /* Build configuration list for PBXProject "PureSip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

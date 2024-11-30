@@ -6,14 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct PureSipApp: App {
     var body: some Scene {
         WindowGroup {
-            WaterDropView(vm: WaterProgressViewModel(objetive: 2),
-                          backgroundColor: .white,
-                          waterColor: .blue)
+            WaterDropView()
         }
+        .modelContainer(for: [User.self, WaterDiary.self])
     }
 }
