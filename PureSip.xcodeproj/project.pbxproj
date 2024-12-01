@@ -25,7 +25,6 @@
 		AA4BF1E42C6B95150088D3F2 /* PureSipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */; };
 		AA4BF1E82C6B95160088D3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */; };
 		AA4BF1EC2C6B95160088D3F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */; };
-		AA4BF1FE2C6CA0930088D3F2 /* WaterProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */; };
 		AA86B8132C7DE8BE0009EA11 /* WaterDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */; };
 		AA86B8152C7DEB380009EA11 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86B8142C7DEB380009EA11 /* User.swift */; };
 		AAA73ADA2CDB95F500622E5D /* HorizontalWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA73AD82CDB95E200622E5D /* HorizontalWaveShape.swift */; };
@@ -37,6 +36,9 @@
 		AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */; };
 		AAC82A0B2C6D1BDE00F5C84E /* ParticlesComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A0A2C6D1BDE00F5C84E /* ParticlesComponent.swift */; };
 		AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */; };
+		AAEBA5DF2CFD0745006D99EF /* PSWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBA5DD2CFD0745006D99EF /* PSWidgetEntry.swift */; };
+		AAEBA5E02CFD0745006D99EF /* PSWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBA5DE2CFD0745006D99EF /* PSWidgetProvider.swift */; };
+		AAEBA5E22CFD0766006D99EF /* WaterDropView+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBA5E12CFD0766006D99EF /* WaterDropView+Components.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +120,6 @@
 		AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4BF1E92C6B95160088D3F2 /* PureSip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PureSip.entitlements; sourceTree = "<group>"; };
 		AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterProgressViewModel.swift; sourceTree = "<group>"; };
 		AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiary.swift; sourceTree = "<group>"; };
 		AA86B8142C7DEB380009EA11 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AAA73AD82CDB95E200622E5D /* HorizontalWaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWaveShape.swift; sourceTree = "<group>"; };
@@ -130,6 +131,9 @@
 		AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropView.swift; sourceTree = "<group>"; };
 		AAC82A0A2C6D1BDE00F5C84E /* ParticlesComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesComponent.swift; sourceTree = "<group>"; };
 		AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
+		AAEBA5DD2CFD0745006D99EF /* PSWidgetEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSWidgetEntry.swift; sourceTree = "<group>"; };
+		AAEBA5DE2CFD0745006D99EF /* PSWidgetProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSWidgetProvider.swift; sourceTree = "<group>"; };
+		AAEBA5E12CFD0766006D99EF /* WaterDropView+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WaterDropView+Components.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +252,6 @@
 				AABD04382C6F76DC001EC15E /* Extensions */,
 				AA4BF2052C6CA47D0088D3F2 /* Models */,
 				AA4BF1EA2C6B95160088D3F2 /* Preview Content */,
-				AA4BF2002C6CA3840088D3F2 /* ViewModels */,
 				AA4BF1FF2C6CA37C0088D3F2 /* Views */,
 			);
 			path = PureSip;
@@ -265,17 +268,10 @@
 		AA4BF1FF2C6CA37C0088D3F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AAEBA5E12CFD0766006D99EF /* WaterDropView+Components.swift */,
 				AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		AA4BF2002C6CA3840088D3F2 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				AA4BF1FD2C6CA0930088D3F2 /* WaterProgressViewModel.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		AA4BF2052C6CA47D0088D3F2 /* Models */ = {
@@ -298,6 +294,8 @@
 		AAA73ADB2CDBBC2A00622E5D /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				AAEBA5DD2CFD0745006D99EF /* PSWidgetEntry.swift */,
+				AAEBA5DE2CFD0745006D99EF /* PSWidgetProvider.swift */,
 				AA1F94292CDB85BB003D3C74 /* PureSipWidget.swift */,
 				AA0817B82CDCE15900C6D99F /* Intents */,
 				AAA73ADC2CDBBC2F00622E5D /* Views */,
@@ -491,8 +489,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1F942A2CDB85BB003D3C74 /* PureSipWidget.swift in Sources */,
+				AAEBA5E02CFD0745006D99EF /* PSWidgetProvider.swift in Sources */,
 				AAA73ADA2CDB95F500622E5D /* HorizontalWaveShape.swift in Sources */,
 				AA1F94392CDB8698003D3C74 /* PSLiveActivityAttributes.swift in Sources */,
+				AAEBA5DF2CFD0745006D99EF /* PSWidgetEntry.swift in Sources */,
 				AA1F94262CDB85BB003D3C74 /* PureSipWidgetBundle.swift in Sources */,
 				AA1F94282CDB85BB003D3C74 /* PureSipWidgetLiveActivity.swift in Sources */,
 				AA0817BB2CDCE27600C6D99F /* UpdateProgressIntent.swift in Sources */,
@@ -507,8 +507,8 @@
 			files = (
 				AABD043C2C6FAD75001EC15E /* WaterDropComponent.swift in Sources */,
 				AAC82A0B2C6D1BDE00F5C84E /* ParticlesComponent.swift in Sources */,
-				AA4BF1FE2C6CA0930088D3F2 /* WaterProgressViewModel.swift in Sources */,
 				AABD042F2C6F4B09001EC15E /* ActionButton.swift in Sources */,
+				AAEBA5E22CFD0766006D99EF /* WaterDropView+Components.swift in Sources */,
 				AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */,
 				AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */,
 				AA86B8152C7DEB380009EA11 /* User.swift in Sources */,
@@ -623,6 +623,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = PureSipWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FMHB2W3446;
@@ -639,6 +640,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rafael.serrano.PureSip.PureSipWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -653,6 +655,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = PureSipWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FMHB2W3446;
@@ -669,6 +672,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rafael.serrano.PureSip.PureSipWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
