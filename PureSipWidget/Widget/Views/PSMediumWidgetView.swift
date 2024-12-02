@@ -26,7 +26,7 @@ struct PSMediumWidgetView: View {
                     .bold()
                 Spacer()
                 Button(intent: ResetDailyProgressIntent()) {
-                    Image(systemName: "arrow.clockwise")
+                    Image(systemName: "arrow.clockwise.circle")
                         .resizable()
                         .frame(width: 20, height: 20)
                         .clipShape(Circle())
@@ -53,7 +53,7 @@ struct PSMediumWidgetView: View {
                     .font(.caption)
                     .bold()
                     .italic()
-                    .foregroundStyle(.widgetBackground)
+                    .foregroundStyle(entry.progress < 0.5 ? .accent : .widgetBackground)
             }
             .padding(.top, 10)
      

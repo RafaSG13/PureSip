@@ -15,6 +15,6 @@ struct PureSipApp: App {
         WindowGroup {
             WaterDropView()
         }
-        .modelContainer(for: [WaterDiary.self])
+        .modelContainer(SwiftDataModel.shared.modelContainer)
     }
 }

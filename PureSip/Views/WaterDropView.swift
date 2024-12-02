@@ -11,6 +11,7 @@ import SwiftData
 
 public struct WaterDropView: View {
     @Environment(\.modelContext) var modelContext
+    @Environment(\.scenePhase) var scenePhase
     @State var waterDiary: WaterDiary?
     @State var progress: CGFloat = 0.0
     
@@ -41,8 +42,13 @@ public struct WaterDropView: View {
             }
          WaterDropLabel
         }
-        .task {
+        .onAppear {
             fetchWaterDiaryInfo()
+        }
+        .onChange(of: scenePhase) { _, newScenePhase in
+            if newScenePhase == .active {
+                fetchWaterDiaryInfo()
+            }
         }
     }
 
