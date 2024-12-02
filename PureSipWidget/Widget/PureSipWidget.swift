@@ -26,13 +26,14 @@ struct PureSipWidgetEntryView : View {
     var entry: PSWidgetEntry
 
     var body: some View {
-        switch widgetFamily {
-        case .systemSmall:
+        widgetView
+    }
+
+    @ViewBuilder var widgetView: some View {
+        if widgetFamily == .systemSmall {
             PSSmallWidgetView(entry: entry)
-        case .systemMedium:
+        } else {
             PSMediumWidgetView(entry: entry)
-        default:
-            Text("Unsupported family")
         }
     }
 }

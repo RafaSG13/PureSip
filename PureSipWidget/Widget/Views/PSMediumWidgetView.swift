@@ -11,46 +11,55 @@ import SwiftUI
 import WidgetKit
 
 struct PSMediumWidgetView: View {
-    var entry: PSWidgetEntry
+    @State var entry: PSWidgetEntry
+
     var body: some View {
-        VStack(spacing: 5) {
+        VStack(spacing: 4) {
             HStack {
-                Image(systemName: "drop.circle")
+                Image("PureSipLogo")
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 40, height: 40)
-                    .foregroundStyle(.cyan)
-                Spacer()
+                    .frame(width: 45, height: 45)
+                    .clipShape(Circle())
                 Text("Daily Water Intake")
-                    .foregroundStyle(.cyan)
+                    .foregroundStyle(.accent)
                     .font(.title2)
                     .bold()
                 Spacer()
+                Button(intent: ResetDailyProgressIntent()) {
+                    Image(systemName: "arrow.clockwise.circle")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                        .clipShape(Circle())
+                        .foregroundStyle(.white)
+                }.buttonStyle(.borderless)
+                Spacer()
             }
-            HStack(spacing: 30) {
+            HStack(spacing: 40) {
                 glassSizeButton(size: .small)
                 glassSizeButton(size: .medium)
                 glassSizeButton(size: .large)
             }
-            ZStack {
-                RoundedRectangle(cornerRadius: 20)
-                    .foregroundStyle(.white)
-                    .frame(height: 10)
-                    .padding(.horizontal)
-                HorizontalWaveShape(progress: 0.5,
-                                    waveHeight: 0.02,
-                                    offset: 0)
-                .fill(.cyan)
-                .mask {
-                    RoundedRectangle(cornerRadius: 20)
-                        .frame(height: 10)
-                        .padding(.horizontal)
-                }
+            HorizontalProgressView(
+                           size: CGSize(width: 300, height: 15),
+                           backgroundColor: Color.gray.opacity(0.3),
+                           progressColor: .accent,
+                           progress: Binding(
+                            get: { CGFloat(entry.progress) },
+                            set: { entry.progress  = Double($0) }
+                           )
+                       )
+            .overlay {
+                Text("\(entry.progress.toPercentageString())")
+                    .font(.caption)
+                    .bold()
+                    .italic()
+                    .foregroundStyle(entry.progress < 0.5 ? .accent : .widgetBackground)
             }
+            .padding(.top, 10)
+     
         }
     }
-    
-    
+
     @ViewBuilder
     func glassSizeButton(size: GlassSize) -> some View {
         let imageSize: CGSize = switch size {
@@ -62,16 +71,17 @@ struct PSMediumWidgetView: View {
         Button(intent: UpdateProgressIntent(glassSize: size)) {
             ZStack {
                 Circle()
-                    .stroke(.cyan, lineWidth: 2)
-                    .shadow(color: .cyan, radius: 10)
                     .frame(width: 50, height: 50)
-                    .foregroundColor(.widgetBackground)
+                    .foregroundStyle(
+                        Gradient(colors: [.black, .widgetBackground, .blue])
+                    )
+                    .shadow(color: .accent, radius: 5)
                 Image(systemName: "mug")
                     .resizable()
                     .scaledToFit()
                     .frame(width: imageSize.width, height: imageSize.height)
                     .foregroundStyle(.white)
-                    .offset(x: 1.5)
+                    .offset(x: 2)
                 Image(systemName: "plus")
                     .resizable()
                     .scaledToFit()
@@ -79,8 +89,24 @@ struct PSMediumWidgetView: View {
                     .foregroundStyle(.white)
                     .bold()
             }
-        }.buttonStyle(.plain)
+        }.buttonStyle(.borderless)
     }
+
+
+//    private var meshGradient: some ShapeStyle {
+//        MeshGradient(width: 3,
+//                     height: 3,
+//                     points: [
+//                        [0.0, 0.0], [0.5, 0.0], [1.0, 0.0],
+//                        [0.0, 0.5], [0.5, 0.5], [1.0, 0.5],
+//                        [0.0, 1.0], [0.5, 1.0], [1.0, 1.0]
+//                     ],
+//                     colors: [
+//                        .black, .widgetBackground, .accent,
+//                        .blue, .cyan, .blue,
+//                        .accent, .cyan, .widgetBackground
+//                     ])
+//    }
 }
 
 

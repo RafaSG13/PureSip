@@ -5,6 +5,7 @@
 //  Created by Rafael Serrano Gamarra on 13/8/24.
 //
 
+import SharedModels
 import SwiftUI
 import SwiftData
 
@@ -14,6 +15,6 @@ struct PureSipApp: App {
         WindowGroup {
             WaterDropView()
         }
-        .modelContainer(for: [User.self, WaterDiary.self])
+        .modelContainer(SwiftDataModel.shared.modelContainer)
     }
 }
