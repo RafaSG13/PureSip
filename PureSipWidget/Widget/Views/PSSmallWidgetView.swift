@@ -9,31 +9,55 @@ import SwiftUI
 import WidgetKit
 
 struct PSSmallWidgetView: View {
-    var entry: PSWidgetEntry
+    @State var entry: PSWidgetEntry
     var body: some View {
         VStack {
-            Button {
-                //Hacer una llamada a red o a local que almacene la info nueva de la intake
-                // coredata.save(newProgress)
-                WidgetCenter.shared.reloadAllTimelines()
-            } label: {
-                ZStack {
-                    Image(systemName: "drop.fill")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.cyan)
-                    Image(systemName: "plus")
-                        .foregroundStyle(.black)
-                        .offset(y: 3)
-                }
+            Text("Tap to add 💧")
+                .font(.system(size: 15))
+                .bold()
+            Button(intent: UpdateProgressIntent(glassSize: .small)) {
+                Image("PureSipLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 80, height: 80)
+                    .clipShape(.circle)
+                    .shadow(color: .accent, radius: 3)
             }
-            
-            Text("\(Int(entry.progress * 100))%")
-                .font(.title3)
+            .buttonStyle(.borderless)
+            waterIntakeStatusView
+                .padding(.top, 2)
+        }
+        .foregroundStyle(.accent)
+        .padding()
+    }
+
+    @ViewBuilder var waterIntakeStatusView: some View {
+        if entry.progress == 1 {
+            Text("Completed")
+                .font(.system(size: 15))
                 .bold()
                 .italic()
-                .foregroundStyle(.cyan)
-        }.padding()
+                .frame(width: 100)
+        } else {
+            HorizontalProgressView(size: .init(width: 100, height: 5),
+                                   backgroundColor: .gray.opacity(0.3),
+                                   progressColor: .accent,
+                                   progress: Binding(
+                                    get: { CGFloat(entry.progress) },
+                                    set: { entry.progress  = Double($0) }
+                                   ))
+        }
     }
+}
+
+#Preview(as: .systemSmall) {
+    PureSipWidget()
+} timeline: {
+    PSWidgetEntry(date: .now)
+}
+
+#Preview(as: .systemSmall) {
+    PureSipWidget()
+} timeline: {
+    PSWidgetEntry(date: .now, progress: 1)
 }

@@ -20,7 +20,7 @@ extension WaterDropView {
                 .bold()
         } else {
             Text(progress.toPercentageString())
-                .foregroundStyle(progress >= 0.5 ? .white : .blue)
+                .foregroundStyle(.white)
                 .font(.largeTitle)
                 .bold()
         }
@@ -28,7 +28,7 @@ extension WaterDropView {
 
     @ViewBuilder
     func AddGlassButton(size: CGSize,
-                                tint: Color = .blue,
+                                tint: Color = .darkBlue,
                                 backgroundColor: Color = .white) -> some View {
         ActionButton(actions: {
             FloatingAction(symbol: "plus", tint: tint, font: .title2, background: backgroundColor) {

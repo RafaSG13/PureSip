@@ -12,9 +12,18 @@ import SwiftData
 import WidgetKit
 
 struct UpdateProgressIntent: AppIntent {
+
+    init(glassSize: GlassSize) {
+        self.glassSize = glassSize.rawValue
+    }
+
+    /// This initializer is required to conform to  the `AppIntent` protocol and should not be used directly.
+    init() { self.glassSize = 0 }
+    
     static var title: LocalizedStringResource = "Update Progress"
 
-    var glassSize: GlassSize = .small
+    @Parameter(title: "Glass size")
+    var glassSize: Double
 
     @MainActor
     func perform() async throws -> some IntentResult {
@@ -29,15 +38,11 @@ struct UpdateProgressIntent: AppIntent {
             }
         )
         if let existingDiary = try modelContext.fetch(descriptor).first {
-            existingDiary.waterIntake += glassSize.rawValue
+            existingDiary.waterIntake += glassSize
             modelContext.insert(existingDiary)
             try modelContext.save()
-//            modelContext.delete(existingDiary)
-//            let newDiary = WaterDiary(day: Date(), objetiveAmount: 3, waterIntake: 0)
-//            modelContext.insert(newDiary)
-            try modelContext.save()
         } else {
-            let newDiary = WaterDiary(day: Date(), objetiveAmount: 3, waterIntake: glassSize.rawValue)
+            let newDiary = WaterDiary(day: Date(), objetiveAmount: 3, waterIntake: glassSize)
             modelContext.insert(newDiary)
             try modelContext.save()
         }

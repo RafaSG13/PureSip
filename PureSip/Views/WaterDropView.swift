@@ -8,15 +8,13 @@
 import SharedModels
 import SwiftUI
 import SwiftData
+import WidgetKit
 
 public struct WaterDropView: View {
     @Environment(\.modelContext) var modelContext
     @Environment(\.scenePhase) var scenePhase
     @State var waterDiary: WaterDiary?
     @State var progress: CGFloat = 0.0
-    
-    var backgroundColor: Color = .white
-    var waterColor: Color = .blue
 
     enum Viewtraits {
         static let waterDropSize: CGSize = .init(width: UIScreen.main.bounds.size.width * 0.9,
@@ -29,12 +27,12 @@ public struct WaterDropView: View {
         let size = UIScreen.main.bounds.size
         
         ZStack {
-            Color("IndigoBlue")
+            Color.darkBlue.opacity(1)
                 .ignoresSafeArea()
             VStack {
                 WaterDropComponent(size: size,
-                                   tint: .blue,
-                                   backgroundColor: .white,
+                                   tint: .darkBlue,
+                                   backgroundColor: .accentColor.opacity(0.9),
                                    waveHeight: Viewtraits.waveHeight,
                                    verticalOffset: Viewtraits.verticalOffset,
                                    progress: $progress)
@@ -83,6 +81,7 @@ public struct WaterDropView: View {
         self.progress = waterDiary.progress
         modelContext.insert(waterDiary)
         try? modelContext.save()
+        WidgetCenter.shared.reloadAllTimelines()
     }
 }
 
