@@ -25,8 +25,8 @@
 		AA4BF1E42C6B95150088D3F2 /* PureSipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BF1E32C6B95150088D3F2 /* PureSipApp.swift */; };
 		AA4BF1E82C6B95160088D3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */; };
 		AA4BF1EC2C6B95160088D3F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */; };
-		AA86B8132C7DE8BE0009EA11 /* WaterDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */; };
-		AA86B8152C7DEB380009EA11 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86B8142C7DEB380009EA11 /* User.swift */; };
+		AA8E8E6F2CFDA375005238AE /* SwiftDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E6E2CFDA375005238AE /* SwiftDataModel.swift */; };
+		AA8E8E722CFDA9AE005238AE /* ResetDailyProgressIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E702CFDA98A005238AE /* ResetDailyProgressIntent.swift */; };
 		AAA73ADA2CDB95F500622E5D /* HorizontalWaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA73AD82CDB95E200622E5D /* HorizontalWaveShape.swift */; };
 		AAA73ADF2CDBBC5700622E5D /* PSSmallWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA73ADD2CDBBC4600622E5D /* PSSmallWidgetView.swift */; };
 		AAA73AE22CDBBC8400622E5D /* PSMediumWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA73AE02CDBBC7800622E5D /* PSMediumWidgetView.swift */; };
@@ -36,6 +36,8 @@
 		AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */; };
 		AAC82A0B2C6D1BDE00F5C84E /* ParticlesComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A0A2C6D1BDE00F5C84E /* ParticlesComponent.swift */; };
 		AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */; };
+		AAD25B072CFD191A002EFA5B /* CGFloat+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD25B052CFD18EA002EFA5B /* CGFloat+Formatter.swift */; };
+		AAD25B462CFD1D6F002EFA5B /* WaterDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */; };
 		AAEBA5DF2CFD0745006D99EF /* PSWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBA5DD2CFD0745006D99EF /* PSWidgetEntry.swift */; };
 		AAEBA5E02CFD0745006D99EF /* PSWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBA5DE2CFD0745006D99EF /* PSWidgetProvider.swift */; };
 		AAEBA5E22CFD0766006D99EF /* WaterDropView+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBA5E12CFD0766006D99EF /* WaterDropView+Components.swift */; };
@@ -121,7 +123,8 @@
 		AA4BF1E92C6B95160088D3F2 /* PureSip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PureSip.entitlements; sourceTree = "<group>"; };
 		AA4BF1EB2C6B95160088D3F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiary.swift; sourceTree = "<group>"; };
-		AA86B8142C7DEB380009EA11 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AA8E8E6E2CFDA375005238AE /* SwiftDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModel.swift; sourceTree = "<group>"; };
+		AA8E8E702CFDA98A005238AE /* ResetDailyProgressIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetDailyProgressIntent.swift; sourceTree = "<group>"; };
 		AAA73AD82CDB95E200622E5D /* HorizontalWaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalWaveShape.swift; sourceTree = "<group>"; };
 		AAA73ADD2CDBBC4600622E5D /* PSSmallWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSSmallWidgetView.swift; sourceTree = "<group>"; };
 		AAA73AE02CDBBC7800622E5D /* PSMediumWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSMediumWidgetView.swift; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 		AAC82A082C6D1BC800F5C84E /* WaterDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropView.swift; sourceTree = "<group>"; };
 		AAC82A0A2C6D1BDE00F5C84E /* ParticlesComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesComponent.swift; sourceTree = "<group>"; };
 		AAC82A0C2C6D1BFF00F5C84E /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
+		AAD25B052CFD18EA002EFA5B /* CGFloat+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Formatter.swift"; sourceTree = "<group>"; };
 		AAEBA5DD2CFD0745006D99EF /* PSWidgetEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSWidgetEntry.swift; sourceTree = "<group>"; };
 		AAEBA5DE2CFD0745006D99EF /* PSWidgetProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSWidgetProvider.swift; sourceTree = "<group>"; };
 		AAEBA5E12CFD0766006D99EF /* WaterDropView+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WaterDropView+Components.swift"; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 		AA0817A52CDBC18F00C6D99F /* SharedModels */ = {
 			isa = PBXGroup;
 			children = (
+				AA8E8E6D2CFDA361005238AE /* Database */,
 				AA0817B52CDBC1BC00C6D99F /* Models */,
 				AA0817A62CDBC18F00C6D99F /* SharedModels.h */,
 			);
@@ -177,6 +182,7 @@
 		AA0817B52CDBC1BC00C6D99F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */,
 				AA0817B62CDBC1CD00C6D99F /* GlassSize.swift */,
 			);
 			path = Models;
@@ -186,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0817B92CDCE16700C6D99F /* UpdateProgressIntent.swift */,
+				AA8E8E702CFDA98A005238AE /* ResetDailyProgressIntent.swift */,
 			);
 			path = Intents;
 			sourceTree = "<group>";
@@ -202,6 +209,7 @@
 		AA1F94242CDB85BB003D3C74 /* PureSipWidget */ = {
 			isa = PBXGroup;
 			children = (
+				AAD25B042CFD18DB002EFA5B /* Extensions */,
 				AAA73ADB2CDBBC2A00622E5D /* Widget */,
 				AAA73AD72CDB95D600622E5D /* Components */,
 				AA1F94372CDB866F003D3C74 /* LiveActivity */,
@@ -250,7 +258,6 @@
 				AA4BF1E72C6B95160088D3F2 /* Assets.xcassets */,
 				AABD04312C6F65AB001EC15E /* Components */,
 				AABD04382C6F76DC001EC15E /* Extensions */,
-				AA4BF2052C6CA47D0088D3F2 /* Models */,
 				AA4BF1EA2C6B95160088D3F2 /* Preview Content */,
 				AA4BF1FF2C6CA37C0088D3F2 /* Views */,
 			);
@@ -274,13 +281,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AA4BF2052C6CA47D0088D3F2 /* Models */ = {
+		AA8E8E6D2CFDA361005238AE /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				AA86B8122C7DE8BE0009EA11 /* WaterDiary.swift */,
-				AA86B8142C7DEB380009EA11 /* User.swift */,
+				AA8E8E6E2CFDA375005238AE /* SwiftDataModel.swift */,
 			);
-			path = Models;
+			path = Database;
 			sourceTree = "<group>";
 		};
 		AAA73AD72CDB95D600622E5D /* Components */ = {
@@ -328,6 +334,14 @@
 			isa = PBXGroup;
 			children = (
 				AABD04392C6F76FF001EC15E /* CGFloat+Formatter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AAD25B042CFD18DB002EFA5B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAD25B052CFD18EA002EFA5B /* CGFloat+Formatter.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -481,6 +495,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0817B72CDBC1CD00C6D99F /* GlassSize.swift in Sources */,
+				AAD25B462CFD1D6F002EFA5B /* WaterDiary.swift in Sources */,
+				AA8E8E6F2CFDA375005238AE /* SwiftDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,10 +505,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1F942A2CDB85BB003D3C74 /* PureSipWidget.swift in Sources */,
+				AAD25B072CFD191A002EFA5B /* CGFloat+Formatter.swift in Sources */,
 				AAEBA5E02CFD0745006D99EF /* PSWidgetProvider.swift in Sources */,
 				AAA73ADA2CDB95F500622E5D /* HorizontalWaveShape.swift in Sources */,
 				AA1F94392CDB8698003D3C74 /* PSLiveActivityAttributes.swift in Sources */,
 				AAEBA5DF2CFD0745006D99EF /* PSWidgetEntry.swift in Sources */,
+				AA8E8E722CFDA9AE005238AE /* ResetDailyProgressIntent.swift in Sources */,
 				AA1F94262CDB85BB003D3C74 /* PureSipWidgetBundle.swift in Sources */,
 				AA1F94282CDB85BB003D3C74 /* PureSipWidgetLiveActivity.swift in Sources */,
 				AA0817BB2CDCE27600C6D99F /* UpdateProgressIntent.swift in Sources */,
@@ -511,9 +529,7 @@
 				AAEBA5E22CFD0766006D99EF /* WaterDropView+Components.swift in Sources */,
 				AAC82A092C6D1BC800F5C84E /* WaterDropView.swift in Sources */,
 				AABD043A2C6F76FF001EC15E /* CGFloat+Formatter.swift in Sources */,
-				AA86B8152C7DEB380009EA11 /* User.swift in Sources */,
 				AAC82A0D2C6D1BFF00F5C84E /* WaveShape.swift in Sources */,
-				AA86B8132C7DE8BE0009EA11 /* WaterDiary.swift in Sources */,
 				AA4BF1E42C6B95150088D3F2 /* PureSipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,7 +571,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +610,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -631,7 +647,7 @@
 				INFOPLIST_FILE = PureSipWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PureSipWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -663,7 +679,7 @@
 				INFOPLIST_FILE = PureSipWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PureSipWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -820,7 +836,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -859,7 +875,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
