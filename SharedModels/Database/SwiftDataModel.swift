@@ -17,7 +17,7 @@ public actor SwiftDataModel {
         let modelContainer: ModelContainer
         do {
             modelContainer = try ModelContainer(for: WaterDiary.self,
-                                                configurations: .init(groupContainer: .identifier("group.com.puresip")))
+                                                configurations: ModelConfiguration(groupContainer: .identifier("group.com.puresip")))
         } catch {
             fatalError("Failed to create the model container: \(error)")
         }

@@ -20,6 +20,7 @@ struct PSMediumWidgetView: View {
                     .resizable()
                     .frame(width: 45, height: 45)
                     .clipShape(Circle())
+                Spacer()
                 Text("Daily Water Intake")
                     .foregroundStyle(.accent)
                     .font(.title2)
@@ -31,8 +32,8 @@ struct PSMediumWidgetView: View {
                         .frame(width: 20, height: 20)
                         .clipShape(Circle())
                         .foregroundStyle(.white)
-                }.buttonStyle(.borderless)
-                Spacer()
+                }
+                .buttonStyle(.borderless)
             }
             HStack(spacing: 40) {
                 glassSizeButton(size: .small)
@@ -53,11 +54,11 @@ struct PSMediumWidgetView: View {
                     .font(.caption)
                     .bold()
                     .italic()
-                    .foregroundStyle(entry.progress < 0.5 ? .accent : .widgetBackground)
+                    .foregroundStyle(entry.progress < 0.5 ? .accent : .darkBlue)
             }
             .padding(.top, 10)
-     
         }
+        .padding(.horizontal)
     }
 
     @ViewBuilder
@@ -73,7 +74,7 @@ struct PSMediumWidgetView: View {
                 Circle()
                     .frame(width: 50, height: 50)
                     .foregroundStyle(
-                        Gradient(colors: [.black, .widgetBackground, .blue])
+                        Gradient(colors: [.black, .darkBlue, .blue])
                     )
                     .shadow(color: .accent, radius: 5)
                 Image(systemName: "mug")
@@ -91,22 +92,6 @@ struct PSMediumWidgetView: View {
             }
         }.buttonStyle(.borderless)
     }
-
-
-//    private var meshGradient: some ShapeStyle {
-//        MeshGradient(width: 3,
-//                     height: 3,
-//                     points: [
-//                        [0.0, 0.0], [0.5, 0.0], [1.0, 0.0],
-//                        [0.0, 0.5], [0.5, 0.5], [1.0, 0.5],
-//                        [0.0, 1.0], [0.5, 1.0], [1.0, 1.0]
-//                     ],
-//                     colors: [
-//                        .black, .widgetBackground, .accent,
-//                        .blue, .cyan, .blue,
-//                        .accent, .cyan, .widgetBackground
-//                     ])
-//    }
 }
 
 

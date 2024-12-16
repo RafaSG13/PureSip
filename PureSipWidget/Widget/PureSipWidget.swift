@@ -14,7 +14,7 @@ struct PureSipWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: PSWidgetProvider()) { entry in
             PureSipWidgetEntryView(entry: entry)
-                .containerBackground(.widgetBackground, for: .widget)
+                .containerBackground(.darkBlue, for: .widget)
         }
         .supportedFamilies([.systemMedium, .systemSmall])
     }

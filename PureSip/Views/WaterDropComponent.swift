@@ -31,7 +31,7 @@ struct WaterDropComponent: View {
                       offset: startAnimation)
             .fill(tint)
             .overlay {
-                ParticlesComponent()
+                ParticlesComponent(particlesColor: backgroundColor)
             }
             .mask {
                 Image(systemName: "drop.fill")
